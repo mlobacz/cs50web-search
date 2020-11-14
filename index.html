@@ -15,23 +15,36 @@
         <link rel="stylesheet" href="styles.css" />
         <title>Search</title>
     </head>
-
     <body>
         <div class="d-flex justify-content-end">
-            <a href="image_search.html">Google Image Search</a>
-            <a href="advanced_search.html">Google Advanced Search</a>
+            <a class="redir" href="image_search.html">Image Search</a>
+            <a class="redir" href="advanced_search.html">Advanced Search</a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <img id="google-logo" src="googlelogo_color_272x92dp.png" alt="Google Logo" />
         </div>
         <form action="https://google.com/search">
             <div class="d-flex justify-content-center">
                 <input
+                    class="sch_bar"
                     type="text"
                     name="q"
                     placeholder="What are you looking for?"
                 />
             </div>
             <div class="d-flex justify-content-center">
-                <input type="submit" name="btnK" value="Google Search" />
-                <input type="submit" name="btnI" value="I'm Feeling Lucky" />
+                <input
+                    class="sch_button"
+                    type="submit"
+                    name="btnK"
+                    value="Google Search"
+                />
+                <input
+                    class="sch_button"
+                    type="submit"
+                    name="btnI"
+                    value="I'm Feeling Lucky"
+                />
             </div>
         </form>
     </body>
