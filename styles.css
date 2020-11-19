@@ -1,20 +1,60 @@
+table, td {
+    padding: 5px;
+}
+
+td input[type="text"] {
+    min-width: 540px;
+}
+
 .sch_bar {
-    width: 484px;
-    height: 44px;
+    border-color: rgb(223, 225, 229);
     border-radius: 24px;
     border-style: solid;
-    border-color: rgb(223, 225, 229);
-    font-size: 13px;
+    height: 44px;
+    margin: 0px 40px 0px 40px;
+    padding: 2px 24px 2px 24px;
+    width: 480px;
 }
 .sch_button {
-    border-radius: 4px;
-    padding: 0px 16px 0px 16px;
-    margin: 11px 4px 11px 4px;
-    font-size: 14px;
     background-color: rgb(248, 249, 250);
     border-color: rgb(248, 249, 250);
-    height: 36px;
+    border-radius: 4px;
     border-style: solid;
-
+    font-size: 14px;
+    height: 36px;
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px;
 }
 
+.redir {
+    padding: 10px;
+}
+
+.adv_sch_form {
+    margin-left: 45px;
+}
+
+.adv_sch_header {
+    margin: 20px 45px 45px 45px;
+    font-size: 20px;
+    color: rgb(217, 48, 37);
+}
+
+.adv_sch_button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 144, 254);
+    border: 1px solid rgb(77, 144, 254);
+    border-radius: 2px;
+    height: 30px;
+    line-height: 11px;
+    min-width: 120px;
+    padding: 0px 12px 0px 12px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#google-logo {
+    padding: 109px 0px 16px 0px;
+    width: 272px;
+}
