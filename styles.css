@@ -41,16 +41,16 @@ td input[type="text"] {
 }
 
 .adv_sch_button {
-    color: rgb(255, 255, 255);
     background-color: rgb(77, 144, 254);
-    border: 1px solid rgb(77, 144, 254);
     border-radius: 2px;
+    border: 1px solid rgb(77, 144, 254);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     height: 30px;
     line-height: 11px;
     min-width: 120px;
     padding: 0px 12px 0px 12px;
     text-align: center;
-    font-weight: bold;
     
 }
 
