@@ -1,5 +1,11 @@
-# mlobacz
+# Search
 
-CS50W Project 0 submission.
+HarvardX's Computer Science for Web Programming project 0 submission.
 
-[Implementation demonstration video](https://youtu.be/oMmZ-wfE3Rg).
+## Objective
+
+Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
+
+## Demo video
+
+[Demonstration video](https://youtu.be/oMmZ-wfE3Rg).
